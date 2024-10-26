@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image: linear-gradient( 135deg, #4fbcaf 10%, #c7609b 100%);
+    background-size: cover;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 10px;
+    color: #f8c471;
+}
+
+.divider {
+    border: 1px solid #f8c471;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.details {
+    margin: 15px 0;
+}
+
+.couple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#F067B4;
+    font-style: italic;
+}
+
+.bride-groom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bride, .groom {
+    width: 90%;
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.bride img, .groom img {
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.bride p, .groom p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-top: 10px;
+    color: #f8c471; /* Matching color theme */
+}
+
+.wedding-info p {
+    font-size: 1em;
+    margin: 5px 0;
+    color:aqua
+}
+
+.rsvp, .special-notes {
+    margin: 15px 0;
+    font-size: 1em;
+    line-height: 1.4;
+    color: #f8c471; /* Matching color theme */
+}
+
+.rsvp p, .special-notes p {
+    margin: 5px 0;
+}
+
+.gallery {
+    margin: 15px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 90%;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #f8c471;
+}
+
+/* Animation */
+@keyframes fadeInBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.invitation-title {
+    animation: fadeInBounce 1s ease-in-out;
+}
+
+.simple-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 5px 5px; /* Padding for the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.simple-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.end{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color:aliceblue;
+    border-radius: 20px;
+    font-size: x-small;
+    padding-bottom: auto;
+    font-style: italic;
+}
